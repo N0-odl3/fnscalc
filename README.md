@@ -8,7 +8,9 @@ Extract the zip file to a folder.
 
 Open your terminal.
 
-Run the program via the command python3 fnscalc.py
+Change directory to fnscalc-main.
+
+Run the program via the command python3 fnscalc.py.
 
 Follow the instructions mentioned by the program.
 
