@@ -1,9 +1,11 @@
 print("flipnote length calculator version 0.0.1 \n developed by NoodleGuy64 with the help of bigminiboss on replit.com \n this program is licensed under the CC-BY-SA 4.0 license by Creative Commons.")
 frames = input("How many frames is the flipnote (no larger than 999)?\n")
-if frames == '':
+if float(frames) == "":
   print("Do not enter string text.")
 if float(frames) > 999:
-  print("Invalid.")
+	print("Invalid.")
+if float(frames) < 1:
+	print("Invalid.")
 fps = float(input("Choose a flipnote speed from 1-8\n"))
 if float(fps) > 8:
   print("Choose a number between 1 and 8\n")
